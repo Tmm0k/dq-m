@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dermaquin - Skin Support Supplement</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+<body class="bg-white w-full">
+    <!-- Main container -->
+    <div class="relative w-full h-[50vh] md:h-[90vh]">
+        <!-- Background image container -->
+        <div class="absolute inset-0">
+            <!-- Mobile image -->
+            <img src="images/sleeping-dog-mobile.png" alt="Background Mobile" class="md:hidden w-full h-full object-cover" style="border-bottom: 10px solid #6bbe4a;">
+            <!-- Desktop image -->
+            <img src="images/sleeping-dog.png" alt="Background Desktop" class="hidden md:block w-full h-full object-cover" style="border-bottom: 10px solid #6bbe4a;">
+        </div>
+
+        <!-- Content container -->
+        <div class="relative z-10 h-full">
+            <!-- Text content -->
+            <div class="mx-auto h-full">
+                <div class="flex flex-col h-full items-center md:pb-48 justify-center md:items-start md:pl-[200px]">
+                    <!-- Heading -->
+                    <h1 class="text-[#6D6E72] text-3xl md:text-[44px] text-center font-[700] mb-6 text-center max-w-[90%] md:max-w-none">
+                        A hardy skin barrier is the best<br>
+                        defense against allergens
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product image - positioned absolutely -->
+        <div class="relative md:absolute bottom-[200px] md:bottom-[-100px] md:left-[200px] z-20 w-[80%] md:w-[40%] mx-auto mt-8 md:mt-0">
+            <img src="images/dermaquin-product.png" alt="Dermaquin products" class="w-full">
+        </div>
+    </div>
+</body>
+</html>
