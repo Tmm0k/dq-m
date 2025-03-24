@@ -57,7 +57,7 @@ body {
 }
 
 /* Responsive tuning */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .dq-hero-heading {
         font-size: 2.75rem;
     }
@@ -66,123 +66,42 @@ body {
         max-width: 400px;
         bottom: 80px;
     }
-}
-
-/*
-.main-container {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-}
-
-.background-container {
-    position: absolute;
-    inset: 0;
-}
-
-.background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-bottom: 10px solid #6bbe4a;
-}
-
-.mobile-image {
-    display: block;
-}
-
-.desktop-image {
-    display: none;
-}
-
-.content-container {
-    position: relative;
-    z-index: 10;
-    height: 100%;
-}
-
-.content-wrapper {
-    margin: 0 auto;
-    height: 100%;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.heading {
-    color: #6D6E72;
-    font-size: 1.875rem;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    max-width: 90%;
-    padding: 0 20px;
-    line-height: 1.3;
-}
-
-.product-container {
-    position: relative;
-    width: 80%;
-    max-width: 400px;
-    margin: 2rem auto 0;
-}
-
-.product-image {
-    width: 100%;
-}
+}*/
 
 @media (min-width: 768px) {
-    .main-container {
-        height: 90vh;
-        min-height: 800px;
+    .dq-hero {
+        min-height: 25vh;
     }
 
-    .mobile-image {
-        display: none;
-    }
-    
-    .desktop-image {
-        display: block;
+    .dq-cta {
+        margin-right: auto;
     }
 
-    .content-wrapper {
-        max-width: 1440px;
-        margin: 0;
-    }
-
-    .flex-container {
-        padding: 0;
+    .dq-hero-inner {
+        display: flex;
         align-items: flex-start;
-        padding-left: 160px;
-        justify-content: flex-start;
-        position: relative;
-        z-index: 2;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        max-width: none;
     }
 
-    .heading {
-        font-size: 44px;
-        max-width: 460px;
+    .dq-hero-heading {
         text-align: left;
-        margin-top: 140px;
-        margin-bottom: 60px;
-        padding: 0;
-        line-height: 1.2;
-        color: #6D6E72;
+        margin: 0;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        max-width: 600px;
+        align-self: flex-start;
     }
 
-    .product-container {
-        position: relative;
-        bottom: auto;
-        left: 160px;
-        z-index: 2;
-        width: 360px;
-        margin: 0;
-        max-width: 360px;
+    .dq-hero-product {
+        position: static;
+        transform: none;
+        margin-top: 2rem;
+        max-width: 380px;
+        width: 100%;
+        align-self: flex-start;
     }
 }
-*/
